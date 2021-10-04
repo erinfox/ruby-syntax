@@ -7,4 +7,6 @@
 
 ---------CHALLENGES---------
 With this user ID --- find their latest broadcast and see if it was sent.
-^^ but find the html from the email
+^^ Now find the html from the email
+
+What is a users default email template?

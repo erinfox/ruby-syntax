@@ -29,7 +29,19 @@ end
  # 0, 1, 2
 
 
-# map - takes items and transforms them 
+
+
+
+ names = [
+  "Sophia",
+  "Noah",
+  "Jackson",
+  "Emma",
+  "Mia",
+  "Carter"
+]
+
+#map
 def oddOrEven(names)
   results = names.map do |name| 
      name.length % 2 == 0 ? "even" : "odd"
@@ -39,7 +51,7 @@ end
 
 oddOrEven(names)
 
-# basic ruby loop 
+# each
 names.each do |name|
   if name.length % 2 == 0 
     puts "Even"
@@ -47,4 +59,9 @@ names.each do |name|
     puts "Odd"
   end
 end 
- 
+# even
+# even
+# odd
+# even
+# odd
+# even

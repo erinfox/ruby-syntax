@@ -11,12 +11,14 @@
 
 names = ["Sophia", "Noah", "Jackson", "Emma", "Mia", "Carter"];
 
-// Loop over each name
-// find the length of each name
-// if he length of the name is %2 === 0 then it's odd
-
 const oddOrEven = (names) => {
   return names.map((n) => (n.length % 2 === 0 ? "even" : "odd"));
 };
 
 console.log(oddOrEven(names));
+// even
+// even
+// odd
+// even
+// odd
+// even
